@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="badramoni.avinash.cratisspace.wewriteone.recordActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="331dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="19dp"
+        android:background="@color/cardview_light_background"
+        android:text="Physics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="331dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/cardview_light_background"
+        android:text="chemistry"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="331dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/background_light"
+        android:text="Type Which Subject you need to complete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn2" />
+</android.support.constraint.ConstraintLayout>
